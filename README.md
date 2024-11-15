@@ -16,7 +16,7 @@ Beyond medical imaging, transfer learning has been applied in various ways acros
 
 # Model Architecture
 
-![VGG19 Architecture](/VGG19.png.png)
+![VGG19 Architecture](/VGG19.png)
 
 VGG19 is a deep convolutional neural network with 19 layers, including 16 convolutional layers and 3 fully connected layers. It uses 3x3 filters with a stride of 1 in the convolutional layers. This simple design helps the network capture spatial hierarchies in images while staying effective. Typically trained on large datasets like ImageNet, the network involves preprocessing steps like resizing input images to 224x224 pixels and normalizing pixel values. It also uses data augmentation techniques, such as random rotations and flips, to improve generalization.
 
